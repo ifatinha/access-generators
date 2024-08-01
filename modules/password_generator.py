@@ -42,6 +42,3 @@ def password_generator():
     password = "".join(secrets.choice(alphabet) for _ in range(12))
 
     return password
-
-
-print("Hoje é quinta feira. " for _ in range(5))
